@@ -18,7 +18,7 @@ function Test() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get('http://localhost:8000/data')
+      .get('https://sentence-construction-backend.onrender.com/data')
       .then((response) => {
         const questionsData = {};
         const answersData = {};
